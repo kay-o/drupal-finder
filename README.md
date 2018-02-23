@@ -15,6 +15,10 @@ if ($drupalFinder->locateRoot(getcwd())) {
 }
 ```
 
+## Usage on Drupal 7 sites not built with composer
+
+Copy ```d7-no-composer.composer.json``` to ```composer.json``` . Defaults assume your Drupal installation is in a subdirectory of your project directory, and that this subdirectory is named ```docroot```.
+
 ## Examples
 
 - [Drupal Console Launcher](https://github.com/hechoendrupal/drupal-console-launcher)
