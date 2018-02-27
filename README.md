@@ -15,6 +15,12 @@ if ($drupalFinder->locateRoot(getcwd())) {
 }
 ```
 
+## Usage on Drupal 7 sites not built with composer
+
+Copy the file d7-no-composer.composer.json to the root of your project.
+Rename it composer.json.
+In Terminal, run $ ```composer install```
+
 ## Examples
 
 - [Drupal Console Launcher](https://github.com/hechoendrupal/drupal-console-launcher)
